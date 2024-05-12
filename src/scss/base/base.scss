@@ -1,0 +1,30 @@
+@import "./variables.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+
+  body {
+    background-color: #000;
+    color: $font-color;
+    font-family: $roboto-font;
+    font-size: 1rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1;
+
+    h1,
+    h2 {
+      font: inherit;
+    }
+  }
+}

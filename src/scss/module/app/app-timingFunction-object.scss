@@ -1,0 +1,43 @@
+.app__timing-function__object {
+  animation: race 3.5s 1.5s infinite;
+  left: 0.5em;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+
+  &[id="1"] {
+    animation-timing-function: linear;
+  }
+
+  &[id="2"] {
+    animation-timing-function: ease;
+  }
+
+  &[id="3"] {
+    animation-timing-function: ease-in-out;
+  }
+
+  &[id="4"] {
+    animation-timing-function: ease-in;
+  }
+
+  &[id="5"] {
+    animation-timing-function: ease-out;
+  }
+
+  &[id="6"] {
+    animation-timing-function: steps(10);
+  }
+
+  &[id="7"] {
+    animation-timing-function: cubic-bezier(0.2, 0.8, 1, 1);
+  }
+
+  @keyframes race {
+    to {
+      left: calc(100% - 100px - 0.5em);
+    }
+  }
+}

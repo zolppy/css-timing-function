@@ -1,0 +1,10 @@
+@import "../../base/variables.scss";
+
+.app__timing-function {
+  align-self: stretch;
+  border: 1px solid $border-color;
+  padding-inline: 1em;
+  display: flex;
+  position: relative;
+  height: 90px;
+}

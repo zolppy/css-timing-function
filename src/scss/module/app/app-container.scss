@@ -1,0 +1,13 @@
+@import "../../base/variables.scss";
+
+.app__container {
+  align-items: center;
+  background-color: $bg-color;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-inline: auto;
+  min-width: 320px;
+  max-width: 480px;
+  padding: 1em;
+}
